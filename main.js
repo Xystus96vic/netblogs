@@ -1,7 +1,8 @@
 let thankyou = setTimeout(() => {alert('Xystus says thank you for visiting my website')}, 2000);
   
 const click = document.getElementById('buton');
-click.addEventListener('click', () => {
+click.addEventListener('click', (e) => {
+    e.preventDefault();
 
     var txt = document.getElementById('txt').value;
      
