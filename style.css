@@ -1,0 +1,202 @@
+body {
+    font-size: 10pt;
+    background-image: url("/imgs/SGN_09_20_2022_1663667709809.jpeg");
+    background-attachment: fixed;
+    background-size: 80% 80%;
+
+}
+
+@media screen and (min-width: 566px) {
+ .large{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+}
+
+header {
+  padding: 4.5em;
+  color: white;
+  background-image: linear-gradient(to bottom right,black, grey);
+  margin-top: -1em;
+  margin-right: -1em;
+  margin-left: -1em;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.2em;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: left;
+}
+
+
+.topnav{
+  position: sticky;
+  top: 1px;
+  display: block;
+  padding: 27px 25px;
+  background-image: linear-gradient(to top left, black, grey);
+  margin-left: -1em;
+  margin-right: -1.2em;
+}
+
+.topnav a{
+  color: black;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  padding: 10px;
+}
+
+.topnav .active{
+  color: white;
+  text-decoration: underline;
+  -ms-text-underline-position: 10px;
+}
+
+.active a{
+  color: white;
+}
+
+.choices{
+  padding: 20px;
+  background-color: white;
+  overflow-x: scroll;
+  margin-right: -20px;
+  display: flex;
+}
+
+.container1{
+  padding: 10px;
+  background-color: lightgrey;
+  border-color: black;
+  border-radius: 30px;
+  display: inline-flex;
+  margin: 1px;
+}
+
+.container1 a{
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+  }
+  
+.wrapper{
+  paddng: 30px;
+  margin-top: 5px;
+  height: 450px;
+  width: auto;
+  display: flex;
+    
+}
+  
+ .wrapper .card{
+   height: 400px;
+   width: auto;
+   border-radius: 15px;
+   background-color: white;
+   margin-top: 5px;
+   padding: 10px 5px;
+   box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.6)
+ }
+ 
+ .wrapper .card .imgcont{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+ }
+ 
+.wrapper .card img{
+  padding-left: 15px; 
+  height: 270px;
+  width: 350px
+}
+
+
+.readmore{
+  background: linear-gradient(90deg, blue, lightblue);
+  border-radius: 15px;
+  padding: 16px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+  
+.readmore a{
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+}
+
+
+#coments{
+  display: flex;
+}
+
+.wcomments
+{
+  margin-bottom: 10px;
+  padding: 40px 60px 60px 40px;
+  background-color: wheat;
+  border-radius: 15px;
+  
+}
+
+.wcomments form textarea {
+  padding: 3px;
+  background-color: white;
+  border-radius: 15px;
+  border-color: lightblue;
+  border: none;
+}
+
+.wcomments form input {
+  padding: 20px;
+  background: linear-gradient(90deg, blue, lightblue);
+  border-radius: 15px;
+}
+
+.pwrapper{
+  display: block;
+  align-content: left;
+  justify-content: left;
+  margin: 1px;
+  margin-top: 5px;
+  height: 300px;
+  width: auto;
+  overflow-y: scroll;
+}
+
+.mess{
+  background-color: grey;
+  padding: 15px;
+  padding-top: 5px;
+  height: 30px;
+  width: 200px;
+  text-align: left;
+  border-radius: 15px;
+  margin: 2px;
+  overflow: scroll;
+}
+
+footer {
+  background-color: black;
+  padding: 20px 40px 40px 30px;
+  margin-right: -1em;
+  margin-bottom:-1em;
+  margin-left: -1em;
+  color: white; 
+  text-align: center;
+}
+
+footer #ftitle{
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+
+footer a{
+  text-decoration: none;
+}
